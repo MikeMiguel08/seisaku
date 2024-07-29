@@ -1,0 +1,110 @@
+
+//- Navigation BEM //
+
+header.header
+  .header__logo
+    .header__logo-text
+  .header__menu
+    .header__details
+
+    button.button--contact
+      .button__icon
+      .button__details
+      .button__number
+
+    button.button--mail
+      .button__icon
+      .button__details
+      .button__number
+
+  nav.nav
+    .nav__list 
+      .nav__item
+        .nav__link
+    .nav__bar.js-nav-toggle
+      .nav__icon-bar
+      .nav__text-menu
+        
+//- Main BEM // 
+
+main.main
+
+//- BANNER (Main Homepage of seisaku) BEM //
+
+section.banner
+
+//- Binding Target BEM //
+
+section.binding
+  .binding__title
+  .binding__list 
+    .binding__item
+    .binding__image-container
+    .binding__text
+
+//- GOAL Section  // 
+
+section.goal 
+  .goal__title
+  .goal__text
+
+//- Works Section BEM // 
+
+section.works
+  .works__title
+  .works__list 
+    .works__item
+      .works__image-container
+      .works__title
+
+button.button--works
+  .button__text
+  .button__icon
+
+//- News section BEM // 
+
+section.news
+  .news__title
+  .news__list
+    .news__item
+      .news__image-container
+      .news__remark // this is a text
+      .news__title
+      .news__label
+      .news__description
+
+button.button--news
+  .button__text
+  .button__icon
+
+//- Feature section BEM // 
+
+section.feature
+  .feature__title
+  .feature__text
+
+//- Contact section BEM // 
+
+section.contact
+  .contact__list
+    .contact__item 
+
+      button.button--contact
+        .button__title 
+        .button__details 
+        .button__icon
+
+      button.button--mail
+        .button__title 
+        .button__details
+        .button__icon
+
+//- Footer BEM // 
+
+footer.footer 
+  .footer__logo
+  .footer__menu
+    .footer__list
+      .footer__item
+        .footer__link
+  .footer__copyright
